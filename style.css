@@ -1,0 +1,102 @@
+/* 1 Задание */
+body {
+    font-family: "Georgia", "Times New Roman", serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* 2. Задание */
+.italic-text {
+    font-style: italic;
+}
+
+.oblique-text {
+    font-style: oblique;
+}
+
+/* 3. Задание */
+.small-caps {
+    font-variant: small-caps;
+}
+
+/* 4. Задание */
+.bold-text {
+    font-weight: bold;
+}
+
+/* 5. Задание */
+.large-text {
+    font-size: 24px;
+}
+
+.medium-text {
+    font-size: 18px;
+}
+
+.small-text {
+    font-size: 14px;
+}
+
+/* 6. Задание */
+.hover-effect {
+    transition: all 0.3s ease;
+    color: #333;
+}
+
+.hover-effect:hover {
+    color: #e74c3c;
+    transform: scale(1.05);
+    background-color: #f9f9f9;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+/* 7. Задание */
+.underline-text {
+    text-decoration: underline;
+}
+
+/* 8. Задание */
+a {
+    text-decoration: none;
+    color: #3498db;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+/* 9. Задание */
+.center-text {
+    text-align: center;
+}
+
+/* 10. Задание */
+.indent-text {
+    text-indent: 30px;
+}
+
+/* 11. Задание */
+.capitalize-text {
+    text-transform: capitalize;
+}
+
+.uppercase-text {
+    text-transform: uppercase;
+}
+
+.lowercase-text {
+    text-transform: lowercase;
+}

@@ -1,22 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    
-    <title>Работа со шрифтами</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стилизация текста по заданию</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Изучаем свойства текста и шрифтов</h1>
+    <div class="container">
+        <h1 class="center-text">Демонстрация CSS-свойств текста</h1>
+        
+        <div class="example-block">
+            <h2>1. Семейство шрифта</h2>
+            <p>Этот текст использует шрифтовое семейство Georgia, Times New Roman, serif.</p>
+        </div>
 
-    <p>
-        Это пример текста, в котором вы должны применить свойства CSS:
-        font-family, font-style, font-variant, font-weight, font-size,
-        text-decoration, text-align, text-indent и text-transform.
-    </p>
+        <div class="example-block">
+            <h2>2. Курсивное и наклонное начертание</h2>
+            <p class="italic-text">Этот текст имеет курсивное начертание.</p>
+            <p class="oblique-text">Этот текст имеет наклонное начертание.</p>
+        </div>
 
-    <p> 
-        При наведении курсора на этот текст, он должен изменится.
-    </p>
+        <div class="example-block">
+            <h2>3. Вариант малых заглавных букв</h2>
+            <p class="small-caps">Этот текст использует вариант малых заглавных букв.</p>
+        </div>
 
-    <a href="#">Эту ссылку нужно сделать без подчеркивания</a>
+        <div class="example-block">
+            <h2>4. Жирный текст</h2>
+            <p class="bold-text">Этот текст имеет жирное начертание.</p>
+        </div>
+
+        <div class="example-block">
+            <h2>5. Размер шрифта</h2>
+            <p class="large-text">Этот текст имеет размер 24px.</p>
+            <p class="medium-text">Этот текст имеет размер 18px.</p>
+            <p class="small-text">Этот текст имеет размер 14px.</p>
+        </div>
+
+        <div class="example-block">
+            <h2>6. Изменение внешнего вида при наведении</h2>
+            <p class="hover-effect">Наведите курсор на этот текст, чтобы увидеть эффект.</p>
+        </div>
+
+        <div class="example-block">
+            <h2>7. Подчёркивание текста</h2>
+            <p class="underline-text">Этот текст подчёркнут.</p>
+        </div>
+
+        <div class="example-block">
+            <h2>8. Ссылка без подчёркивания</h2>
+            <p>Это обычная <a href="#">ссылка без подчёркивания</a> в тексте.</p>
+        </div>
+
+        <div class="example-block">
+            <h2>9. Выравнивание текста по центру</h2>
+            <p class="center-text">Этот текст выровнен по центру.</p>
+        </div>
+
+        <div class="example-block">
+            <h2>10. Отступ первой строки в абзаце</h2>
+            <p class="indent-text">Этот абзац имеет отступ первой строки. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <div class="example-block">
+            <h2>11. Преобразование регистра</h2>
+            <p class="capitalize-text">этот текст будет преобразован в capitalize (каждое слово с заглавной буквы).</p>
+            <p class="uppercase-text">этот текст будет преобразован в верхний регистр.</p>
+            <p class="lowercase-text">ЭТОТ ТЕКСТ БУДЕТ ПРЕОБРАЗОВАН В НИЖНИЙ РЕГИСТР.</p>
+        </div>
+    </div>
 </body>
 </html>
